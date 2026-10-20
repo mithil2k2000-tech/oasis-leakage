@@ -1,0 +1,30 @@
+\begin{table*}[t]
+\centering
+\caption{Dementia (CDR $>$ 0) classification under five protocols, mean of five repetitions. P1--P4 are 5-fold cross-validation on OASIS-2 (373 visits, 150 participants); P5 trains on all of OASIS-2 and tests on OASIS-1 participants aged 60 or over (198).}
+\label{tab:protocols}
+\small
+\begin{tabular}{llrrrr}
+\toprule
+Protocol & Model & AUC & Bal.\ acc. & Brier & ECE \\
+\midrule
+P1 visit split, all features incl. CDR & Logistic regression & 1.000 & 1.000 & 0.001 & 0.025 \\
+ & Random forest & 1.000 & 1.000 & 0.004 & 0.043 \\
+ & Gradient boosting & 1.000 & 1.000 & 0.000 & 0.000 \\
+P2 visit split, MMSE, no CDR & Logistic regression & 0.907 & 0.817 & 0.123 & 0.046 \\
+ & Random forest & 0.904 & 0.814 & 0.124 & 0.066 \\
+ & Gradient boosting & 0.892 & 0.807 & 0.129 & 0.056 \\
+P3 subject split, MMSE & Logistic regression & 0.900 & 0.813 & 0.127 & 0.038 \\
+ & Random forest & 0.842 & 0.763 & 0.156 & 0.077 \\
+ & Gradient boosting & 0.842 & 0.747 & 0.166 & 0.103 \\
+P4 subject split, demographics + MRI & Logistic regression & 0.766 & 0.699 & 0.195 & 0.060 \\
+ & Random forest & 0.671 & 0.630 & 0.232 & 0.074 \\
+ & Gradient boosting & 0.679 & 0.625 & 0.246 & 0.146 \\
+P5 external OASIS-1, demographics + MRI & Logistic regression & 0.742 & 0.663 & 0.214 & 0.090 \\
+ & Random forest & 0.877 & 0.773 & 0.154 & 0.117 \\
+ & Gradient boosting & 0.824 & 0.753 & 0.175 & 0.090 \\
+P5b external OASIS-1, + MMSE & Logistic regression & 0.905 & 0.823 & 0.130 & 0.073 \\
+ & Random forest & 0.948 & 0.885 & 0.095 & 0.111 \\
+ & Gradient boosting & 0.940 & 0.849 & 0.099 & 0.059 \\
+\bottomrule
+\end{tabular}
+\end{table*}
