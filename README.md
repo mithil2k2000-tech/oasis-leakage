@@ -1,6 +1,8 @@
 # From 1.00 to 0.77: how much dementia-prediction accuracy on OASIS is leakage?
 
-Paper: [`paper/main.pdf`](paper/main.pdf). Target: CDR > 0 per visit, OASIS-2 (373 visits, 150 participants),
+📄 **Paper (PDF): [oasis-leakage.pdf](oasis-leakage.pdf)**
+
+Target: CDR > 0 per visit, OASIS-2 (373 visits, 150 participants),
 external test on OASIS-1 (aged 60+).
 
 | Protocol | Logistic regression AUC | Random forest AUC |
