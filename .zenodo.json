@@ -1,0 +1,21 @@
+{
+  "title": "From 1.00 to 0.77: How Much of Reported Dementia-Prediction Accuracy on OASIS Is Leakage?",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "Preprint, code, data and results for: From 1.00 to 0.77: How Much of Reported Dementia-Prediction Accuracy on OASIS Is Leakage?. Not peer reviewed. The PDF is oasis-leakage.pdf in this repository.",
+  "creators": [
+    {
+      "name": "Nagabathula, Mithil",
+      "affiliation": "University of East London"
+    }
+  ],
+  "keywords": [
+    "dementia",
+    "data leakage",
+    "OASIS",
+    "machine learning evaluation"
+  ],
+  "license": "MIT",
+  "language": "eng",
+  "access_right": "open"
+}

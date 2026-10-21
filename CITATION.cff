@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "From 1.00 to 0.77: How Much of Reported Dementia-Prediction Accuracy on OASIS Is Leakage?"
+type: software
+authors:
+  - family-names: Nagabathula
+    given-names: Mithil
+    affiliation: University of East London
+    email: mithilnishu2000@gmail.com
+repository-code: "https://github.com/mithil2k2000-tech/oasis-leakage"
+license: MIT
+version: "1.0.0"
+date-released: "2026-10-21"
+keywords:
+  - "dementia"
+  - "data leakage"
+  - "OASIS"
+  - "machine learning evaluation"
+preferred-citation:
+  type: report
+  title: "From 1.00 to 0.77: How Much of Reported Dementia-Prediction Accuracy on OASIS Is Leakage?"
+  authors:
+    - family-names: Nagabathula
+      given-names: Mithil
+      affiliation: University of East London
+  institution:
+    name: University of East London
+  year: 2026
+  month: 10
+  url: "https://github.com/mithil2k2000-tech/oasis-leakage/blob/main/oasis-leakage.pdf"
+  notes: "Preprint; not peer reviewed."
