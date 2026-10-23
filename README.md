@@ -1,6 +1,6 @@
 # From 1.00 to 0.77: how much dementia-prediction accuracy on OASIS is leakage?
 
-📄 **Paper (PDF): [oasis-leakage.pdf](oasis-leakage.pdf)**
+📄 **Paper (PDF): [oasis-leakage.pdf](oasis-leakage.pdf)** · [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23593046.svg)](https://doi.org/10.5281/zenodo.23593046)
 
 Target: CDR > 0 per visit, OASIS-2 (373 visits, 150 participants),
 external test on OASIS-1 (aged 60+).
